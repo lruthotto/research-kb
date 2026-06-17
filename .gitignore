@@ -1,0 +1,12 @@
+# Source PDFs are large and often not redistributable — re-fetch via the
+# manifest (raw/pdfs/manifest.md) with scripts/fetch_pdf.py.
+**/raw/pdfs/**/*.pdf
+*.pdf
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
